@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1a0000"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
@@ -17,15 +17,18 @@
       "supportsTablet": true,
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "NSContactsUsageDescription": "Цей додаток використовує контакти для запрошення пари.",
-        "NSCalendarsUsageDescription": "Цей додаток використовує календар для планування часу розмов.",
-        "NSUserNotificationsUsageDescription": "Цей додаток надсилає щоденні нагадування для SoulTalk."
-      }
+        "NSContactsUsageDescription": "SoulTalk використовує контакти для запрошення вашого партнера до спільних розмов",
+        "NSCalendarsUsageDescription": "SoulTalk допомагає планувати час для значущих розмов з партнером",
+        "NSUserNotificationsUsageDescription": "SoulTalk надсилає щоденні нагадування для поглиблення стосунків",
+        "UIBackgroundModes": ["remote-notification"]
+      },
+      "entitlements": {}
     },
     "android": {
+      "package": "com.dmitryberesten.soultalk",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#1a0000"
       },
       "permissions": [
         "android.permission.READ_CONTACTS",
@@ -36,14 +39,10 @@
         "android.permission.VIBRATE"
       ]
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
     "extra": {
       "eas": {
         "projectId": "612da6e0-a8d9-4971-8b26-4b354d12f46c"
       }
-    },
-    "plugins": ["@react-native-community/datetimepicker"]
+    }
   }
 }

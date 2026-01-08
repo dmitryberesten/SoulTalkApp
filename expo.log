@@ -1,0 +1,19 @@
+nohup: ignoring input
+Starting project at C:\Users\User\Documents\GitHub\SoulTalkApp
+Starting Metro Bundler
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+iOS .\App.tsx ░░░░░░░░░░░░░░░░  0.0% (0/1)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓░░░░░░░ 60.3% ( 731/1300)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓░░░░░░░ 60.3% ( 808/1369)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓░░░░░░░ 60.3% ( 880/1418)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓░░░░░░░ 61.8% (1296/1649)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓▓▓░░░░░ 70.6% (1561/1858)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓▓▓▓░░░░ 81.1% (1780/1977)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░ 88.5% (2023/2150)
+iOS .\App.tsx ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░ 99.9% (2274/2275)
+iOS Bundled 29431ms App.tsx (2275 modules)
+ WARN  expo-notifications: Android Push notifications (remote notifications) functionality provided by expo-notifications was removed from Expo Go with the release of SDK 53. Use a development build instead of Expo Go. Read more at https://docs.expo.dev/develop/development-builds/introduction/.
+ WARN  `expo-notifications` functionality is not fully supported in Expo Go:
+We recommend you instead use a development build to avoid limitations. Learn more: https://expo.fyi/dev-client.
+ ERROR  [runtime not ready]: Error: Native modules for sensors not available. Did react-native link run successfully?
